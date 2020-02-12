@@ -3,6 +3,11 @@
 
 
 ```python
+%load_ext autoreload
+%autoreload 2
+```
+
+```python
 import sys
 import os
 sys.path.append(os.path.dirname(os.getcwd()))
